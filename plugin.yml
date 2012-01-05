@@ -1,0 +1,17 @@
+name: EasyGameMode
+main: uk.co.speshkittyonline.gameMode.EasyGameMode
+version: 1
+author: Sir_Speshkitty
+commands:
+    gamemode:
+        description: Changes a players gamemode
+        permission: gamemode.self
+        usage: |
+            /gamemode [player] [0||1]
+permissions:
+  gamemode.self:
+    default: op
+    description: Allows you to change your own gamemode.
+  gamemode.other:
+    default: op
+    description: Allows you to change other people's gamemode.
