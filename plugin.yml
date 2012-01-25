@@ -1,11 +1,11 @@
 name: EasyGameMode
 main: uk.co.speshkittyonline.gameMode.EasyGameMode
-version: 1
+version: 2
 author: Sir_Speshkitty
+description: A simpler way to handle /gamemode
 commands:
     gamemode:
         description: Changes a players gamemode
-        permission: gamemode.self
         usage: |
             /gamemode [player] [0||1]
 permissions:
